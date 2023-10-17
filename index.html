@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aurjon's Blog</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark position-sticky top-0" data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="https://www.freeiconspng.com/uploads/robot-icon-4.png" width="30" alt="Drawing Vector Robot" />
+        Aurbot</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Sections
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#code-skills">Coding Skills</a></li>
+              <li><a class="dropdown-item" href="#karate">My Karate Journey</a></li>
+              <li><a class="dropdown-item" href="#">My Musical Life</a></li>
+              <li><a class="dropdown-item" href="#">My Love for Food</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div class="container d-flex justify-content-center flex-column h-100">
+      <div class="row">
+        <div class="col">
+          <p class="text-light header-text text-decoration-underline">Yameen Aurjon</p>
+          <p class="text-light header-text">A Whole Website Only About Me!</p>
+          <p class="text-danger header-small">My First Proper Website</p>
+        </div>
+        <div class="col"></div>
+      </div>
+    </div>
+  </header>
+
+  <section class="container my-5 p-0" id="slide-show">
+    <div class="row">
+      <div class="col-5 p-5 rounded-start bg-dark" id="first-para">
+        <h2 class="display-3 text-decoration-underline text-light pb-2">Welcome!</h2>
+        <p class="lead text-light">
+          Welcome to my blog. I'm Aurjon and I'm 16 years old. I created this website to give people an overview of me.
+          It took a lot of effort to make this so hopefully, you'll like it. My contact info can be found at the end of
+          the page.
+        </p>
+        <hr class="text-light">
+        <a class="btn btn-outline-light d-flex justify-content-center" href="#start">Let's get started!</a>
+      </div>
+      <div class="col-7 pt-1">
+        <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner w-100 h-100">
+
+            <div class="carousel-item active w-100 h-100" data-bs-interval="5000">
+              <img
+                src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1420&q=80"
+                class="d-block w-100 h-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Laptop</h5>
+              </div>
+            </div>
+            <div class="carousel-item w-100 h-100" data-bs-interval="5000">
+              <img
+                src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                class="d-block w-100 h-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Workplace</h5>
+              </div>
+            </div>
+            <div class="carousel-item w-100 h-100" data-bs-interval="5000">
+              <img
+                src="https://images.unsplash.com/photo-1527136285293-f3a362c6f5f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                class="d-block w-100 h-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Old School</h5>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container" id="start">
+    <div class="row" id="interests">
+      <div class="col-3">
+        <div class="card text-bg-dark w-100">
+          <img
+            src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Coding</h5>
+            <p class="card-text">I've been coding since the age of 12 years old. It's fascinating to be able to command
+              a computer to do things exactly the way I want it to.</p>
+            <a href="#code-skills" class="btn btn-primary">Check it out</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card w-100">
+          <img
+            src="https://images.unsplash.com/photo-1525198104776-f6e8a873f9b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Martial Arts</h5>
+            <p class="card-text">I've been doing Karate and some other forms of Martial Arts for 6 years now. I'm a BKF
+              registered 1st dan black belt. I am now a Karate instructor.</p>
+            <a href="#karate" class="btn btn-primary">Check it out</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card text-bg-dark w-100">
+          <img
+            src="https://images.unsplash.com/photo-1525201548942-d8732f6617a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Music</h5>
+            <p class="card-text">I'm a huge music enthusiast. I listen to music all the time. I can play the guitar a
+              little bit, took some lessons but I learn from the internet now. </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card w-100">
+          <img
+            src="https://images.unsplash.com/photo-1623341214825-9f4f963727da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Food</h5>
+            <p class="card-text">I love food from other cultures. I haven't gotten to try many varieties of food. I
+              wanna travel to many countries to try their food once I grow up.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center py-5" id="pages">
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link text-bg-secondary" href="#">Previous</a></li>
+          <li class="page-item"><a class="page-link text-bg-secondary" href="#">1</a></li>
+          <li class="page-item"><a class="page-link text-bg-secondary" href="#">2</a></li>
+          <li class="page-item"><a class="page-link text-bg-secondary" href="#">3</a></li>
+          <li class="page-item"><a class="page-link text-bg-secondary" href="#">Next</a></li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+
+  <section class="container bg-dark p-5 rounded border" id="about-me">
+    <h2 class="display-3 text-decoration-underline text-light pb-2">About me</h2>
+    <p class="lead text-light">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga voluptatibus ipsum delectus porro placeat incidunt
+      nihil facere itaque beatae, consectetur reiciendis, eveniet, aliquid deleniti? Quis velit quas ea doloremque
+      exercitationem doloribus. Iste quisquam iusto dolorum modi temporibus, dignissimos non, illum quam facilis
+      voluptate totam accusamus aliquid corrupti minus aperiam deserunt?
+    </p>
+    <hr class="text-light">
+    <div>
+      <p class="text-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias porro corporis veniam pariatur
+        maiores magni
+        officiis accusamus incidunt voluptatibus non.</p>
+      <a class="btn btn-outline-danger" href="https://www.youtube.com/@jenre6903">Check out my youtube channel</a>
+    </div>
+  </section>
+
+  <div class="rounded-top mt-5" id="inspire-div">
+    <h1 class="text-center" id="inspire">
+      My Inspirations
+    </h1>
+  </div>
+  <section class="container rounded-bottom" id="spy">
+    <div class="row h-100">
+      <div class="col-4 h-100">
+        <div id="list-example" class="list-group">
+          <a class="list-group-item list-group-item-action text-bg-secondary" href="#list-item-1">Nikola Tesla</a>
+          <a class="list-group-item list-group-item-action text-bg-secondary" href="#list-item-2">Albert Einstein</a>
+          <a class="list-group-item list-group-item-action text-bg-secondary" href="#list-item-3">Stephen Hawking</a>
+          <a class="list-group-item list-group-item-action text-bg-secondary" href="#list-item-4">Steve Jobs</a>
+        </div>
+      </div>
+      <div class="col-8 h-100">
+        <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example"
+          tabindex="0">
+          <div class="row px-5">
+            <div class="col-8">
+              <h4 id="list-item-1">Nikola Tesla</h4>
+              <p>Nikola Tesla (/ˈtɛslə/; Serbian Cyrillic: Никола Тесла,[2] pronounced [nǐkola têsla];[a] 10 July
+                [O.S. 28 June] 1856 – 7 January 1943) was a Serbian-American[5][6] inventor, electrical engineer,
+                mechanical engineer, and futurist best known for his contributions to the design of the modern
+                alternating current (AC) electricity supply system.[7]</p>
+            </div>
+            <div class="col-4">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Tesla_circa_1890.jpeg/800px-Tesla_circa_1890.jpeg"
+                class="w-100" alt="">
+            </div>
+          </div>
+          <div class="row px-5 py-3">
+            <div class="col-8">
+              <h4 id="list-item-2">Albert Einstein</h4>
+              <p>Albert Einstein (/ˈaɪnstaɪn/ EYEN-styne;[38] German: [ˈalbɛɐt ˈʔaɪnʃtaɪn] ⓘ; 14 March 1879 – 18 April
+                1955) was a German-born theoretical physicist,[39] widely held to be one of the greatest and most
+                influential scientists of all time. Best known for developing the theory of relativity, he also made
+                important contributions to quantum mechanics, and was thus a central figure in the revolutionary
+                reshaping of the scientific understanding of nature that modern physics accomplished in the first
+                decades of the twentieth century.</p>
+            </div>
+            <div class="col-4">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg/800px-Einstein_1921_by_F_Schmutzer_-_restoration.jpg"
+                alt="" class="w-100 py-4">
+            </div>
+          </div>
+          <div class="row px-5 py-3">
+            <div class="col-8">
+              <h4 id="list-item-3">Stephen Hawking</h4>
+              <p>Stephen William Hawking (8 January 1942 – 14 March 2018) was an English theoretical physicist,
+                cosmologist, and author who, at the time of his death, was director of research at the Centre for
+                Theoretical Cosmology at the University of Cambridge.[6][17][18] Between 1979 and 2009, he was the
+                Lucasian Professor of Mathematics at the University of Cambridge, widely viewed as one of the most
+                prestigious academic posts in the world.</p>
+            </div>
+            <div class="col-4">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Stephen_Hawking.StarChild.jpg" alt=""
+                class="w-100">
+            </div>
+          </div>
+          <div class="row px-5 py-3">
+            <div class="col-8">
+              <h4 id="list-item-4">Steve Jobs</h4>
+              <p>Steven Paul Jobs[1] (born February 24, 1955 – October 5, 2011) was an American business magnate,
+                inventor, and investor. He was the co-founder, chairman, and CEO of Apple; the chairman and majority
+                shareholder of Pixar; a member of The Walt Disney Company's board of directors following its
+                acquisition of Pixar; and the founder, chairman, and CEO of NeXT. He was a pioneer of the personal
+                computer revolution of the 1970s and 1980s, along with his early business partner and fellow Apple
+                co-founder Steve Wozniak.</p>
+            </div>
+            <div class="col-4">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg/800px-Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg"
+                alt="" class="w-100 py-5">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="coding-skills container py-3 mt-5 mb-5 border rounded" id="code-skills">
+    <div class="row h-100" style="padding: 50px 0 !important;">
+      <div class="col-6 h-100 d-flex justify-content-center flex-column align-items-center">
+        <div class="row">
+          <div class="col-6 py-1 px-1">
+            <div class="card text-bg-success h-100 w-100" style="max-width: 18rem;">
+              <div class="card-header">Skill Set</div>
+              <div class="card-body">
+                <h5 class="card-title">CSS</h5>
+                <p class="card-text">I've learnt the basics of CSS through a course in Codingal. I'm not that proficient
+                  at it yet.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 py-1 px-1">
+            <div class="card text-bg-info h-100 w-100" style="max-width: 18rem;">
+              <div class="card-header">Skill Set</div>
+              <div class="card-body">
+                <h5 class="card-title">Bootstrap</h5>
+                <p class="card-text">I'm a bit better with bootstrap than CSS even though I'm a bit newer to it, however
+                  I enjoy it more.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 py-1 px-1">
+            <div class="card text-bg-primary h-100 w-100" style="max-width: 18rem;">
+              <div class="card-header">Skill Set</div>
+              <div class="card-body">
+                <h5 class="card-title">HTML</h5>
+                <p class="card-text">I'm better at the technical parts of coding than the creative styling, so naturally
+                  I'm better at HTML than CSS and Bootstrap</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 py-1 px-1">
+            <div class="card text-bg-danger h-100 w-100" style="max-width: 18rem;">
+              <div class="card-header">Skill Set</div>
+              <div class="card-body">
+                <h5 class="card-title">Python</h5>
+                <p class="card-text">I'm most experienced with Python. I've done a handful of projects with it and some
+                  of them are pretty advanced.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <h2 class="display-3 text-danger text-center">Coding skills</h2>
+        <div>
+        </div>
+        <div style="height: 20px" class="progress my-5" role="progressbar" aria-label="Success striped example"
+          aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-animated bg-success" style="width: 25%">CSS
+          </div>
+        </div>
+        <div style="height: 20px" class="progress my-5" role="progressbar" aria-label="Info striped example"
+          aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-animated bg-info" style="width: 50%">Bootstrap</div>
+        </div>
+        <div style="height: 20px" class="progress my-5" role="progressbar" aria-label="Warning striped example"
+          aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-animated bg-primary" style="width: 75%">HTML
+          </div>
+        </div>
+        <div style="height: 20px" class="progress my-5" role="progressbar" aria-label="Danger striped example"
+          aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-animated bg-danger" style="width: 100%">Python
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="karate-skills container py-3 mb-5 border rounded" id="karate">
+    <div class="row">
+      <div class="col-6 p-5">
+        <h2 class="display-3 text-decoration-underline text-light pb-2">My Karate Journey</h2>
+        <p class="lead text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus nihil maxime beatae pariatur eius cupiditate voluptatem omnis, blanditiis eveniet nostrum eum assumenda aliquid quam natus inventore sit veniam alias libero animi facilis temporibus ipsam quia? Sapiente mollitia non nam sint.</p>
+      </div>
+      <div class="col-6 p-5">
+        <img src="karate-pic.jpg" alt="" class="border border-5 border-secondary w-100 h-100 rounded-end">
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-secondary-subtle">
+    <p class="text-center">Made by &copy; Aurjon</p>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
