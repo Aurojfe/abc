@@ -1,0 +1,74 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  nav {
+    z-index: 1000;
+  }
+  
+  body {
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, c#203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  footer {
+    padding: 20px 0;
+  }
+  
+  input[type="email"],
+  select.form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #000000;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+  }
+  
+  input[type="email"]:focus,
+  select.form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  
+  input[type="text"],
+  select.form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #000000;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+  }
+  
+  input[type="text"]:focus,
+  select.form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  
+  #email-text {
+    color: #fff;
+  }
+  
+  #text-area {
+    color: #fff;
+  }
+  
+  #fb {
+    width: 55px;
+  }
+  
+  #call {
+    width: 55px;
+  }
+  
+  #mail {
+    width: 55px;
+  }
+  
