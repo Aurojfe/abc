@@ -1,0 +1,87 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  nav {
+    z-index: 1000;
+  }
+  
+  header {
+    background-image: url('starter-pic.JPG');
+    height: 400px;
+    background-size: 100%;
+    background-repeat: none;
+  }
+  
+  .header-text {
+    text-shadow: 3px 3px 2px black;
+    font-size: 35px;
+  }
+  
+  .header-small {
+    text-shadow: 3px 3px 2px black;
+    font-size: 15px;
+  }
+  
+  body {
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, c#203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  footer {
+    padding: 20px 0;
+  }
+  
+  .coding-skills {
+    background-image: linear-gradient(to bottom right, rgba(44, 83, 100, 0.8), rgba(32, 58, 67, 0.8), rgba(15, 32, 39, 0.8)), url('https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+  }
+  
+  .karate-skills {
+    background-image: linear-gradient(to bottom right, rgba(44, 83, 100, 0.8), rgba(32, 58, 67, 0.8), rgba(15, 32, 39, 0.8)), url('https://images.unsplash.com/photo-1526889588514-2e695856df85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1467&q=80');
+  }
+  
+  #slide-show {
+    padding: 0 120px;
+  }
+  
+  #carouselExample {
+    height: 400px;
+  }
+  
+  #spy {
+    background-image: linear-gradient(to bottom, white, grey);
+    height: 300px;
+    padding: 50px 20px;
+  }
+  
+  .scrollspy-example {
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  
+  #inspire-div {
+    padding: 0;
+    margin: 0 105px;
+    height: 50px;
+    background-image: linear-gradient(to bottom, white, #fffffe)
+  }
+  
+  #start {
+    margin-top: 0;
+  }
+  
+  .card {
+    transition: all 1s;
+  }
+  
+  .card:hover{
+    transform: scale(1.05);
+  }
+  
+  
